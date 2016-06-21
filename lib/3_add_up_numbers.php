@@ -7,9 +7,33 @@
 // Run `bin/check` from the command line to execute the automated tests.
 
 function addUpNumbers($arr) {
-  // Your code goes here.
+	array_sum($arr);
 }
 
-// Write your own "tests" below. Refer to the the examples from exercise #1.
+echo "\nTesting that (1,2,3,4) should return 10.\n";
+if (uppercasesAllLetters(array(1,2,3,4)) == 10) {
+	echo "Yippie!";
+}
+else{
+	echo "WHYYYyyyy...";
+}
+echo "\n------------------------------------***------------------\n"
 
+echo "\nTesting that () should return null.\n";
+if (uppercasesAllLetters(array()) == null) {
+	echo "Yippie!";
+}
+else{
+	echo "WHYYYyyyy...";
+}
+echo "\n------------------------------------***------------------\n"
+
+echo "\nTesting that (-1, 0, 1, 2) should return 2.\n";
+if (uppercasesAllLetters(array(-1,0,1,2)) == 2) {
+	echo "Yippie!";
+}
+else{
+	echo "WHYYYyyyy...";
+}
+echo "\n------------------------------------***------------------\n"
 ?>

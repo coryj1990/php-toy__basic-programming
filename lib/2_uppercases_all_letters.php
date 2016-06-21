@@ -7,9 +7,34 @@
 // Run `bin/check` from the command line to execute the automated tests.
 
 function uppercasesAllLetters($str) {
-  // Your code goes here.
+  strtoupper($str);
 }
 
-// Write your own "tests" below. Refer to the the examples from exercise #1.
+echo "\nTesting that doc should return DOC.\n";
+if (uppercasesAllLetters(doc) == DOC) {
+	echo "Yippie!";
+}
+else{
+	echo "WHYYYyyyy...";
+}
+echo "\n------------------------------------***------------------\n"
+
+echo "\nTesting that ribbit should return RIBBIT.\n";
+if (uppercasesAllLetters(ribbit) == RIBBIT) {
+	echo "Yippie!";
+}
+else{
+	echo "WHYYYyyyy...";
+}
+echo "\n------------------------------------***------------------\n"
+
+echo "\nTesting that MEOW should return MEOW.\n";
+if (uppercasesAllLetters(MEOW) == MEOW) {
+	echo "Yippie!";
+}
+else{
+	echo "WHYYYyyyy...";
+}
+echo "\n------------------------------------***------------------\n"
 
 ?>
