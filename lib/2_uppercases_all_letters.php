@@ -17,24 +17,26 @@ if (uppercasesAllLetters(doc) == DOC) {
 else{
 	echo "WHYYYyyyy...";
 }
-echo "\n------------------------------------***------------------\n"
+echo "\n------------------------------------***------------------\n";
 
-echo "\nTesting that ribbit should return RIBBIT.\n";
+echo "\nTesting that ribbit should return RIBBIT.\n"
+;
 if (uppercasesAllLetters(ribbit) == RIBBIT) {
 	echo "Yippie!";
 }
 else{
 	echo "WHYYYyyyy...";
 }
-echo "\n------------------------------------***------------------\n"
+echo "\n------------------------------------***------------------\n";
 
 echo "\nTesting that MEOW should return MEOW.\n";
 if (uppercasesAllLetters(MEOW) == MEOW) {
 	echo "Yippie!";
 }
 else{
-	echo "WHYYYyyyy...";
+	echo "WHYYYyyyy..."
+	;
 }
-echo "\n------------------------------------***------------------\n"
+echo "\n------------------------------------***------------------\n";
 
 ?>

@@ -11,29 +11,29 @@ function addUpNumbers($arr) {
 }
 
 echo "\nTesting that (1,2,3,4) should return 10.\n";
-if (uppercasesAllLetters(array(1,2,3,4)) == 10) {
+if (addUpNumbers(array(1,2,3,4)) == 10) {
 	echo "Yippie!";
 }
 else{
 	echo "WHYYYyyyy...";
 }
-echo "\n------------------------------------***------------------\n"
+echo "\n------------------------------------***------------------\n";
 
 echo "\nTesting that () should return null.\n";
-if (uppercasesAllLetters(array()) == null) {
+if (addUpNumbers(array()) == null) {
 	echo "Yippie!";
 }
 else{
 	echo "WHYYYyyyy...";
 }
-echo "\n------------------------------------***------------------\n"
+echo "\n------------------------------------***------------------\n";
 
 echo "\nTesting that (-1, 0, 1, 2) should return 2.\n";
-if (uppercasesAllLetters(array(-1,0,1,2)) == 2) {
+if (addUpNumbers(array(-1,0,1,2)) == 2) {
 	echo "Yippie!";
 }
 else{
 	echo "WHYYYyyyy...";
 }
-echo "\n------------------------------------***------------------\n"
+echo "\n------------------------------------***------------------\n";
 ?>
